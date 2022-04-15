@@ -28,37 +28,37 @@
 
             <p class="ldt">Let's do this</p>
 
-            <div class="form">
+            <form class="form" action="#">
                 <div class="form-controls">
 
                     <div class="form-control">
                         <label for="first-name">First name</label>
-                        <input type="text" name="first-name" id="first-name">
+                        <input type="text" name="first-name" id="first-name" required minlength="6" maxlength="24">
                     </div>
                     <div class="form-control">
                         <label for="last-name">Last Name</label>
-                        <input type="text" name="last-name" id="last-name">
+                        <input type="text" name="last-name" id="last-name" required minlength="6" maxlength="24">
                     </div>
                     <div class="form-control">
                         <label for="email">Email</label>
-                        <input type="email" name="email" id="email">
+                        <input type="email" name="email" id="email" required>
                     </div>
                     <div class="form-control">
                         <label for="number">Phone number</label>
-                        <input type="number" name="number" id="number">
+                        <input type="number" name="number" id="number" required>
                     </div>
                     <div class="form-control">
                         <label for="password">Password</label>
-                        <input type="password" name="password" id="password">
+                        <input type="password" name="password" id="password" required minlength="6">
                     </div>
                     <div class="form-control">
                         <label for="c-password">Confirm password</label>
-                        <input type="password" name="c-password" id="c-password">
+                        <input type="password" name="c-password" id="c-password" required minlength="6">
                     </div>
                 </div>
 
                 <button type="submit">Create Account</button>
-            </div>
+            </form>
         </div>
     </div>
 </body>
