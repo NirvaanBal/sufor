@@ -61,6 +61,7 @@ body {
     justify-content: center;
 }
 
+
 .right .intro {
     padding: 0 80px;
     font-weight: bold;
@@ -70,3 +71,36 @@ body {
     margin: 15px 0;
 }
 
+
+.form-controls {
+    padding: 30px 80px;
+    background-color: #fff;    
+
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 200px;
+}
+
+.ldt {
+    font-weight: bold;
+    background-color: #fff;
+    padding: 0 80px;
+    padding-top: 30px;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control label {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.form-control input {
+    width: 250px;
+    padding: 2px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
